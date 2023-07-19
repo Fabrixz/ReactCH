@@ -1,39 +1,25 @@
-import React, { useState } from 'react';
-import NavBar from './components/Header/NavBar';
-import Cards from './components/Cards/Cards';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import Carousel from './components/Carousel/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Banner from './components/Banner/Banner';
-import PcRecomendadas from './components/PcRecomendadas/PcRecomendadas';
+import { Layout } from "./components/layout/Layout";
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { menuRoutes } from "./routes/menuRoutes";
+import CartContextProvider from "./context/CartContext";
 
-function App() {
-  const [cartCount, setCartCount] = useState(0);
-
-  const addToCart = () => {
-    setCartCount(prevCount => prevCount + 1);
-  };
-
+const App = () => {
   return (
-    <div>
-      <NavBar cartCount={cartCount} />
-      
-        <div>
-          <Carousel />
-        </div>
-        <div>
-          <Banner />
-        </div>
-        <div>
-          <PcRecomendadas />
-        </div>
-        <div>
-        <ItemListContainer nombre="Productos" />
-      </div>
-      <Cards addToCart={addToCart} />
-    </div>
+    <BrowserRouter>
+      <CartContextProvider>
+        <Routes>
+          <Route element={<Layout />}>
+            {menuRoutes.map(({ id, path, Element }) => (
+              <Route key={id} path={path} element={<Element />} />
+            ))}
+          </Route>
+
+          <Route path="*" element={<h1>Ruta no existente</h1>} />
+        </Routes>
+      </CartContextProvider>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

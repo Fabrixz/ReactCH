@@ -1,0 +1,14 @@
+.Footer {
+  padding: 15px;
+  display: flex;
+  margin: auto;
+  object-position: center;
+  background-color: #080808;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.Footer p {
+  font-size: 22px;
+  display: flow-root;
+}
