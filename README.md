@@ -15,9 +15,9 @@
 
 ## Visite el sitio
 
-[Sitio web](kairos-cinema-bbc249z1m-sofia-j-molina.vercel.app)
+[Sitio web](https://react-ch-kappa.vercel.app/)
 
-[Github Autor](https://github.com/javalos87)
+
 
 
 
