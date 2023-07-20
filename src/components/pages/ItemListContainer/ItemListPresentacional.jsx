@@ -10,12 +10,9 @@ export const ItemListPresentacional = ({ items }) => {
           className="Logo"
         />
         <div className="kairos-cinema">
-          <h1>Kairos Cinema</h1>
+          <h1>La Papada</h1>
           <p>
-            Sumérgete en una experiencia cinematográfica única con Kairos
-            Cinema. Tu boleto para el entretenimiento está a solo un clic de
-            distancia. ¡Reserva ahora y deja que el cine se convierta en una
-            aventura sin complicaciones!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem natus adipisci sapiente hic architecto consectetur itaque maiores dolores saepe reiciendis esse cum laudantium voluptates maxime ex accusamus neque quaerat libero dolor animi, modi ullam temporibus? Laudantium alias quae sapiente dicta sit veritatis non natus. Consequuntur quibusdam voluptate quos laboriosam quia.
           </p>
         </div>
       </div>

@@ -1,12 +1,12 @@
-# Kairos cinema
+# La papada
 
-#### Kairos Cinema es una plataforma en línea diseñada para brindarte una experiencia cómoda y conveniente al adquirir tus entradas de cine. Con un enfoque en la comodidad y la facilidad de uso, Kairos Cinema te permite reservar y comprar tus boletos para las últimas películas de manera rápida y sencilla, todo desde la comodidad de tu hogar.
+#### "¿Estás cansado de tener que buscar tus series favoritas en diferentes servicios de streaming? ¿Te gustaría tener acceso a una amplia variedad de series en un solo lugar? Entonces “La Papada” es la solución para ti. Ofrecemos una amplia variedad de series, desde anime hasta series importantes de televisión, todo en un solo lugar. Además, somos una empresa argentina, lo que significa que apoyarás a una empresa local al usar nuestro servicio.
 
-#### Con esta plataforma, ya no tendrás que hacer largas filas o preocuparte por llegar temprano al cine para asegurar tus asientos. Kairos Cinema te ofrece la libertad de elegir tu película favorita, selecciona el horario que más te convenga y reserva tus boletos en línea de forma segura. Además, podrá consultar la disponibilidad de asientos en tiempo real y seleccionar aquellos que mejor se adapten a sus preferencias.
+#### Pero eso no es todo. “La Papada” es conveniente y fácil de usar. Los usuarios pueden ver las series en línea desde la comodidad de su hogar y no tienen que preocuparse por buscar las series en diferentes servicios de streaming. Todo lo que necesitan hacer es comprar el servicio y nosotros les proporcionaremos las claves para acceder a las series.
 
+#### Entonces, si estás buscando una manera fácil y conveniente de ver tus series favoritas, ¡prueba “La Papada” hoy mismo!"
 ![](https://res.cloudinary.com/drmkzftbn/image/upload/v1689385840/Screenshot_14_tdj3pe.png)
 
-#### Sumérgete en una experiencia cinematográfica única con Kairos Cinema. Tu boleto para el entretenimiento está a solo un clic de distancia. ¡Reserva ahora y deja que el cine se convierta en una aventura sin complicaciones!
 
 - Proyecto Final de React de CODERHOUSE
 - Ecommerce, para la venta de entradas de un cine.
@@ -19,6 +19,6 @@
 
 [Github Autor](https://github.com/javalos87)
 
-### Para clonar el repositorio ejecute
 
-git clone https://github.com/Sofia-J-Molina/Kairos-cinema
+
+

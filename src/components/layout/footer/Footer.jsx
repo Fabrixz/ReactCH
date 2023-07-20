@@ -5,11 +5,11 @@ export const Footer = () => {
   return (
     <div className="Footer">
       <p>Contactanos:</p>
-      <a href="https://www.linkedin.com/in/sof%C3%ADa-j-molina-235168259/">
+      <a href="https://www.linkedin.com/in/fabrizio-tevez-a7b5131b6/">
         <GitHubIcon fontSize="large" />
       </a>
 
-      <a href="https://github.com/Sofia-J-Molina">
+      <a href="https://github.com/Fabrixz">
         <LinkedInIcon fontSize="large" />
       </a>
       <p>
