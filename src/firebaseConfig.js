@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore";
 import {
   getAuth,
   signInWithEmailAndPassword,
@@ -17,8 +18,16 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+export const dataBase = getFirestore(app);
 const analytics = getAnalytics(app);
 
 
 export const auth = getAuth(app)
 export const provider = new GoogleAuthProvider()
+export const login = async ({ email, password }) => {
+  return await signInWithEmailAndPassword(auth, email, password);
+};
+
+export const register = async ({ email, password }) => {
+  return await createUserWithEmailAndPassword(auth, email, password);
+};
