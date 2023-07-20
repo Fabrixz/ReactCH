@@ -51,7 +51,7 @@ export const CheckoutContainer = () => {
       {orderId ? (
         <div className="Caja_texto">
           <h2 className="texto">Felicidades!! Su compra fue exitosa </h2>
-          <p className="texto">Le deseamos que disfrute de la pelicula 😊 </p>
+          <p className="texto">Le deseamos que disfrute de la serie 😊 </p>
           <p className="texto">
             Adjuntamos aqui su numero de comprobante: {orderId}
           </p>
