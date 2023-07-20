@@ -5,7 +5,7 @@
 #### Pero eso no es todo. “La Papada” es conveniente y fácil de usar. Los usuarios pueden ver las series en línea desde la comodidad de su hogar y no tienen que preocuparse por buscar las series en diferentes servicios de streaming. Todo lo que necesitan hacer es comprar el servicio y nosotros les proporcionaremos las claves para acceder a las series.
 
 #### Entonces, si estás buscando una manera fácil y conveniente de ver tus series favoritas, ¡prueba “La Papada” hoy mismo!"
-![](https://res.cloudinary.com/drmkzftbn/image/upload/v1689385840/Screenshot_14_tdj3pe.png)
+
 
 
 - Proyecto Final de React de CODERHOUSE
